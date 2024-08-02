@@ -1,0 +1,159 @@
+
+        *{
+            margin: 0;padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .nav_bar{
+            height:2.5rem;
+            width:100%;
+           border:0.25px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav_2nd{
+            display: flex;
+            gap:1rem;
+        } 
+        i{
+              font-size:x-large;
+        }
+        button{
+            background-color: #A0DAFF;
+            color: white;
+            border-radius: 7%;
+            padding: 0.25rem 0.5rem 0.25rem 0.5rem ;
+            border:none;
+        }
+        @media (max-width:320px) {
+           .nav_2nd{
+            display: none;
+           }
+          
+        }
+        @media (max-width:600px) {
+
+        }
+        .mainbox{
+            display:flex;
+        }
+        .left{
+     /* height: calc(100% - 2.5rem); */
+     height:95vh;
+     width:50%;
+     
+     position: relative;
+        }
+        .right{
+            height:95vh;
+     width:50%;
+     position: relative;
+        }
+        span{
+            color:#55C9FB;
+          
+        }
+        .right img{
+          height: 100%;
+          width: 100%;
+        }
+        h1{
+            font-size:xx-large;
+        margin-top: 15%;
+        margin-left: 10%;
+        }
+        p{
+           
+            margin-left: 10%;
+            line-height: 20px;;
+        }
+       #sec_button{
+        margin-left: 10%;
+        
+        margin-top: 5%;
+       }
+       @media (max-width:600px) { 
+        .right img {
+           height: 50%;
+           width: 100%;
+        } 
+       }
+
+.social-media{
+  
+   color: black;
+}
+.subdiv{
+    display: flex;
+    flex-direction:row; 
+    justify-content: baseline;
+} 
+.community a{
+    text-decoration: none;
+   color: black;
+}
+.company,.community,.get_in_touch{
+     margin:14px 35px;
+   padding:0px 20px 7px 0; 
+  
+}
+.social-media{
+    margin:20px 32px;
+    padding:10px 50px 30px 0;
+}
+.social-media a{
+    font-size: 24px;
+    margin-right:10px;
+   color: black;
+}
+.company li{
+    list-style: none;
+
+}
+.company li a{ 
+    color:black;
+}
+.company h4{
+
+     color:black; 
+}
+.company a{
+    text-decoration: none;
+}
+hr{
+    height: 1px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#foot{
+    display: flex;
+ justify-content: center;
+    color: black;
+    font-size:small;
+}
+.copy{
+font-size: 15px;
+}
+@media (max-width:425px) {
+   .subdiv{
+    flex-direction: column;
+   }
+   .social-media{
+    margin: -9px 29px;
+    padding: 9px 0px 15px 0;
+   }
+}
+@media (max-width:768px)
+{
+   footer{
+    margin-top: 100px;;
+   } 
+}
+
+    
